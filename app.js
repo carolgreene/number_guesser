@@ -87,4 +87,6 @@ function getRandomNum(min, max) {
 //set message
 function setMessage(msg, color) {
   message.style.color = color
-  message.tex
+  message.textContent = msg
+}
+
